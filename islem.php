@@ -67,7 +67,7 @@ if (isset ($_POST ['giris']))
         }
         else
         {
-                 $kullanici_sor = $db-> prepare ('SELECT * FROM uyeler WHERE  email = ? || sifre = ? ') ;
+                 $kullanici_sor = $db-> prepare ('SELECT * FROM uyeler WHERE  email = ? && sifre = ? ') ;
                 $kullanici_sor->execute([
             
                      $username, $password 

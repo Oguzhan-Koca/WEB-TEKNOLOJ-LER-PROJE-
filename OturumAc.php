@@ -49,7 +49,7 @@ require 'baglan.php';
                     <a class="nav-link" href="İlgiAlanlarım.html"><h5>İlgi alanlarım</h5></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href=""><h5>İletişim</h5></a>
+                    <a class="nav-link" href="iletişim.html"><h5>İletişim</h5></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="OturumAc.php"><h5>Oturum Aç</h5></a>
@@ -66,8 +66,9 @@ require 'baglan.php';
     </header>
     <!--oturum açma alanı-->
     <div class="container-fluid">
+    <h2 class="display-5 text-upparcase mb-5 text-center"> Oturum Aç</h2>
         <div class="row">
-            <h2 class="display-5 text-upparcase mb-5"> Oturum Aç</h2>
+            
             <div class="col ">
                 <div class="d-grid bg-primary  mb-5 py-5">
                     <!-- Button trigger modal -->
